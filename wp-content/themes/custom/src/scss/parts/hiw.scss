@@ -1,0 +1,171 @@
+.hiw { 
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    @include media-breakpoint-up(sm) { 
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    @include media-breakpoint-up(md) { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    @include media-breakpoint-up(xl) { 
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    @include media-breakpoint-up(xxl) { 
+        padding-top: 60px;
+        padding-bottom: 150px;
+    }
+
+    &__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        @include media-breakpoint-up(md) {
+            
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            
+
+            &-cell-1 { grid-area: 1 / 1 / 2 / 2; }
+            &-cell-2 { grid-area: 2 / 1 / 3 / 2; }
+            &-cell-3 { grid-area: 3 / 1 / 4 / 2; }
+            &-cell-4 { grid-area: 4 / 1 / 5 / 2; }
+            &-cell-5 { grid-area: 1 / 2 / 5 / 3; }
+        }
+        
+
+        @include media-breakpoint-up(lg) {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+
+                &-cell-1 { grid-area: 1 / 1 / 2 / 4; }
+                &-cell-2 { grid-area: 1 / 10 / 2 / 13; }
+                &-cell-3 { grid-area: 2 / 1 / 3 / 4; }
+                &-cell-4 { grid-area: 2 / 10 / 3 / 13; }
+                &-cell-5 { grid-area: 1 / 4 / 3 / 10; }
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        gap: 8px;
+
+        
+        @include media-breakpoint-up(md) {
+            text-align: right;
+            align-items: flex-end;
+        }
+
+        &__number {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            border-radius: 10px;
+            background: var(--Cta, #28B446);
+            box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, 0.19);
+
+            color: #fff;
+            text-align: center;
+            //font-family: Urbanist;
+            font-style: normal;
+
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 150%; /* 48px */
+            letter-spacing: 0.16px;
+
+            
+
+            @include media-breakpoint-up(sm) { 
+                width: 60px;
+                height: 60px;
+                font-size: 32px;
+            
+            }
+
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            &--title {
+                color: #000;
+                text-align: center;
+                /* h4 - 320 */
+                font-family: Manrope;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 22.5px */
+                letter-spacing: 0.075px;
+                margin-bottom: 0;
+                @include media-breakpoint-up(sm) {
+                    font-size: 18px;
+                }
+            }
+            &--descr { 
+                color: #000;
+                text-align: center;
+
+                /* p 320 */
+                font-family: Manrope;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 18px */
+                letter-spacing: 0.06px;
+                margin-bottom: 0;
+                @include media-breakpoint-up(sm) {
+                    font-size: 15px;
+                }
+            }
+        }
+
+
+    }
+
+
+
+    
+    
+    
+    
+    
+}
+
+
+// .parent {
+// display: grid;
+// grid-template-columns: repeat(5, 1fr);
+// grid-template-rows: repeat(5, 1fr);
+// grid-column-gap: 0px;
+// grid-row-gap: 0px;
+// }
+
+// .div1 { grid-area: 1 / 1 / 2 / 2; }
+// .div2 { grid-area: 1 / 3 / 2 / 4; }
+// .div3 { grid-area: 2 / 1 / 3 / 2; }
+// .div4 { grid-area: 2 / 3 / 3 / 4; }
+// .div5 { grid-area: 1 / 2 / 3 / 3; }

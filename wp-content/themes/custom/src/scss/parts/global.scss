@@ -1,0 +1,81 @@
+div#wpadminbar {
+    display: none;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.main { 
+    background-image: url(../img/bg.svg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top center;
+}
+
+.global { 
+    &__title { 
+        color: #000;
+        text-align: center;
+
+        /* H2 - 1200px */
+        // font-family: Urbanist;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        &--decoration {
+            max-width: 80px;
+        }
+
+        @include media-breakpoint-up(sm) {
+            font-size: 32px;
+            &--decoration {
+                max-width: 130px;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 20px;
+        }
+        
+        @include media-breakpoint-up(xxl) {
+            font-size: 42px;
+            &--decoration {
+                max-width: 155px;
+            }   
+        }
+    }
+
+    &__subtitle { 
+        color: #000;
+        text-align: center;
+
+        /* p 320 */
+        font-family: 'Manrope';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 18px */
+        letter-spacing: 0.06px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 15px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 18px;
+        }
+        
+    }
+
+}

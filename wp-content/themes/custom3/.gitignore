@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Dependency directories
+vendor/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Gulp
+.cache/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Compiled Java files
+*.class
+
+# Compiled Ruby files
+*.o
+*.log
+*.gem
+
+# Compiled C++ files
+*.out
+
+# Compiled binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib

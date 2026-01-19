@@ -1,0 +1,68 @@
+:root {
+    --font-size: 16px;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+.accordion-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.accordion-trigger {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.accordion-trigger:hover {
+    color: #f97316;
+}
+
+.accordion-content {
+    padding: 0 1.5rem 1rem;
+    color: #6b7280;
+    display: none;
+}
+
+.accordion-content.active {
+    display: block;
+}
+
+.accordion-trigger .chevron {
+    transition: transform 0.2s;
+}
+
+.accordion-trigger.active .chevron {
+    transform: rotate(180deg);
+}
+
+/* Form styles */
+.form-select {
+    position: relative;
+}
+
+.form-select select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 0.5rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
+
+/* Smooth scrolling for anchors */
+html {
+    scroll-behavior: smooth;
+}

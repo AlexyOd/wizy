@@ -1,0 +1,19 @@
+@import './def/variables';
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import '../../node_modules/intl-tel-input/build/css/intlTelInput.min.css';
+@import '../../node_modules/swiper/swiper.scss';
+
+
+@import './def/fonts';
+@import './def/reset';
+
+@import './def/buttons';
+@import './parts/global';
+@import './parts/mixins';
+
+@import './header';
+
+@import './parts/top';
+@import './parts/hiw';

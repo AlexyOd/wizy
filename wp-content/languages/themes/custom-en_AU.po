@@ -1,0 +1,43 @@
+# Translation of Custom in English (Australia)
+# This file is distributed under the same license as the Custom package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-20 01:25:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Custom\n"
+
+#. Description of the plugin/theme
+msgid "Customize Your WordPress Design The Smart Way. Custom WordPress Theme is a responsive Omega child theme, SEO Friendly, utliize WordPress Customizer options, Custom background, custom header, custom menu, custom color, custom css live preview. Play around and make your WordPress site stand out with Custom theme."
+msgstr "Customise Your WordPress Design The Smart Way. Custom WordPress Theme is a responsive Omega child theme, SEO Friendly, utilise WordPress Customiser options, Custom background, custom header, custom menu, custom colour, custom CSS live preview. Play around and make your WordPress site stand out with Custom theme."
+
+#. Theme Name of the plugin/theme
+msgid "Custom"
+msgstr "Custom"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr "Left Sidebar"
+
+#. Template Name of the plugin/theme
+msgid "Full-width, No Sidebar"
+msgstr "Full-width, No Sidebar"
+
+#: functions.php:75
+msgid "Accent Color"
+msgstr "Accent Colour"
+
+#. Author of the plugin/theme
+msgid "themehall.com"
+msgstr "themehall.com"
+
+#. Author URI of the plugin/theme
+msgid "https://themehall.com"
+msgstr "https://themehall.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://themehall.com/custom-free-omega-child-theme-wordpress"
+msgstr "https://themehall.com/custom-free-omega-child-theme-wordpress"
