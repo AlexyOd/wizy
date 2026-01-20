@@ -25,10 +25,18 @@
                 $descr = $item['descr'];
                 $btn = $item['btn'];
                 $img = $item['img'];
+
+                $colClass1 = 'col-12 col-md-6 col-lg-5 col-xxl-5 align-self-center';
+                $colClass2 = 'col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2';
+
+                if($is_even = $index % 2 === 1) {
+                    $colClass2 = 'col-12 col-md-6 col-lg-5 col-xxl-5 align-self-center';
+                    $colClass1= 'col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2';
+                }
         ?>
             <div class="format__item">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-5 col-xxl-5 align-self-center">
+                    <div class="<?php echo $colClass1; ?>">
                         <div class="format__item--text">
                             <p class="format__item--title">
                                 <?php echo $title; ?>
@@ -41,7 +49,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2">
+                    <div class="<?php echo $colClass2; ?>">
                         <img class="format__item--img" src="<?php echo $img['url']; ?>" alt="<?php echo $img['alt']; ?>">
                     </div>
                 </div>
