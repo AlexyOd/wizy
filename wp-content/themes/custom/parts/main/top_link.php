@@ -1,6 +1,4 @@
- <?php
-
-
+<?php
     $applink_link = $topLinkData['link']["url"];
     $applink_lmg = $topLinkData['img'];
 ?>

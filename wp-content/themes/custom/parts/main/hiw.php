@@ -53,8 +53,61 @@
                     <?php
                         }
                     ?>    
-                     <div class="hiw__item hiw__grid-cell-5">
+                    <div class="hiw__item hiw__grid-cell-5 ">
                         <img src="<?php echo $hiw_decor; ?>" alt="hiw_decor">
+                        
+                        <div class="hiw__app d-lg-none">
+                            <?php
+                                $hiw_app_title = $hiw_bottom['title'];
+                            ?>
+                            <p class="hiw__app--title global__mtitle">
+                                <?php echo $hiw_app_title; ?>
+                            </p>
+                            <div class="hiw__app--holder">
+                            <?php
+                                $topLinkTemplate = get_template_directory() . '/parts/main/top_link.php';
+
+                                /* Первый линк */
+                                $topLinkData = $hiw_bottom['applink'];
+                                if (file_exists($topLinkTemplate)) {
+                                    include $topLinkTemplate;
+                                }
+
+                                /* Второй линк */
+                                $topLinkData = $hiw_bottom['applinkScnd'];
+                                if (file_exists($topLinkTemplate)) {
+                                    include $topLinkTemplate;
+                                }
+                            ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="hiw__app d-none d-lg-flex">
+                    <?php
+                        $hiw_app_title = $hiw_bottom['title'];
+                    ?>
+                    <p class="hiw__app--title global__mtitle">
+                        <?php echo $hiw_app_title; ?>
+                    </p>
+                    <div class="hiw__app--holder">
+                    <?php
+                        $topLinkTemplate = get_template_directory() . '/parts/main/top_link.php';
+
+                        /* Первый линк */
+                        $topLinkData = $hiw_bottom['applink'];
+                        if (file_exists($topLinkTemplate)) {
+                            include $topLinkTemplate;
+                        }
+
+                        /* Второй линк */
+                        $topLinkData = $hiw_bottom['applinkScnd'];
+                        if (file_exists($topLinkTemplate)) {
+                            include $topLinkTemplate;
+                        }
+                    ?>
                     </div>
                 </div>
             </div>

@@ -78,4 +78,29 @@ body {
         
     }
 
+    &__mtitle { 
+        color: #000;
+        text-align: center;
+
+        /* h2 - 320px */
+        //font-family: Urbanist;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 26px;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: 32px;
+        }
+        @include media-breakpoint-up(lg) {
+            font-size: 38px;
+        }
+        @include media-breakpoint-up(xxl) {
+            font-size: 42px;
+        }
+    }
+
 }
