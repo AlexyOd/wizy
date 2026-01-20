@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 20 2026 г., 16:53
+-- Время создания: Янв 20 2026 г., 17:31
 -- Версия сервера: 5.7.39
 -- Версия PHP: 8.1.9
 
@@ -282,9 +282,9 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (448, '_transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9', '1768915395', 'off'),
 (449, '_transient_timeout_dash_v2_f69de0bbfe7eaa113146875f40c02000', '1768958595', 'off'),
 (450, '_transient_dash_v2_f69de0bbfe7eaa113146875f40c02000', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://ru.wordpress.org/news/2025/12/wordpress-campus-connect-expands/\'>Образовательная программа WordPress Campus Connect</a></li><li><a class=\'rsswidget\' href=\'https://ru.wordpress.org/news/2025/06/dropping-security-updates-for-wordpress-versions-4-1-through-4-6/\'>Прекращение поддержки старых версий WordPress 4.1-4.6</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://openchannels.fm/open-channels-fm-v7-0-release/\'>Open Channels FM: Open Channels FM v7.0 Release</a></li><li><a class=\'rsswidget\' href=\'https://weston.ruter.net/2026/01/19/post-date-block-published-modified/\'>Weston Ruter: Post Date Block: Published &amp;amp; Modified</a></li><li><a class=\'rsswidget\' href=\'https://ma.tt/2026/01/ai-psychosis/\'>Matt: AI Psychosis</a></li></ul></div>', 'off'),
-(452, '_site_transient_timeout_wp_theme_files_patterns-f82abeaaba57656b6649fcbbf5682641', '1768918269', 'off'),
-(453, '_site_transient_wp_theme_files_patterns-f82abeaaba57656b6649fcbbf5682641', 'a:2:{s:7:\"version\";s:3:\"1.0\";s:8:\"patterns\";a:0:{}}', 'off'),
-(455, '_transient_pll_languages_list', 'a:2:{i:0;a:22:{s:4:\"name\";s:20:\"Українська\";s:4:\"slug\";s:2:\"uk\";s:10:\"term_group\";i:0;s:7:\"term_id\";i:2;s:6:\"locale\";s:2:\"uk\";s:6:\"is_rtl\";i:0;s:3:\"w3c\";s:2:\"uk\";s:8:\"facebook\";s:5:\"uk_UA\";s:8:\"home_url\";s:16:\"http://loc.wizy/\";s:10:\"search_url\";s:16:\"http://loc.wizy/\";s:4:\"host\";N;s:13:\"page_on_front\";i:15;s:14:\"page_for_posts\";i:0;s:9:\"flag_code\";s:2:\"ua\";s:8:\"flag_url\";s:85:\"http://loc.wizy/wp-content/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/ua.png\";s:4:\"flag\";s:457:\"<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAb1BMVEUAhP8AfP0Ac/oAZ/UAV/B5yv9wxv5iwf1WvP1Ot/gAQOlMt/1Bs/s1rfkpqPdBsfYdovUAkciK0edqwuBautpNtdZAr9IATZr43QD8/GX6+kn5+Tr4+C329iD09BTy8g309DHguQDy8iruzwDnwwAuoRPoAAAASElEQVR4AU3MAQYDQRAF0Ve9WRAQYO5/zUgSDIxf8DQdiGR3I7v0YOLS3ns4PPt8Wq86vn6vVht7NRzG0OHRSpDb8Gt5IvjAHy/kBL+aIRygAAAAAElFTkSuQmCC\" alt=\"Українська\" width=\"16\" height=\"11\" style=\"width: 16px; height: 11px;\" />\";s:15:\"custom_flag_url\";s:0:\"\";s:11:\"custom_flag\";s:0:\"\";s:6:\"active\";b:1;s:9:\"fallbacks\";a:0:{}s:10:\"is_default\";b:1;s:10:\"term_props\";a:2:{s:8:\"language\";a:3:{s:7:\"term_id\";i:2;s:16:\"term_taxonomy_id\";i:2;s:5:\"count\";i:1;}s:13:\"term_language\";a:3:{s:7:\"term_id\";i:3;s:16:\"term_taxonomy_id\";i:3;s:5:\"count\";i:1;}}}i:1;a:22:{s:4:\"name\";s:7:\"English\";s:4:\"slug\";s:2:\"en\";s:10:\"term_group\";i:0;s:7:\"term_id\";i:5;s:6:\"locale\";s:5:\"en_US\";s:6:\"is_rtl\";i:0;s:3:\"w3c\";s:5:\"en-US\";s:8:\"facebook\";s:5:\"en_US\";s:8:\"home_url\";s:24:\"http://loc.wizy/en/main/\";s:10:\"search_url\";s:19:\"http://loc.wizy/en/\";s:4:\"host\";N;s:13:\"page_on_front\";i:18;s:14:\"page_for_posts\";i:0;s:9:\"flag_code\";s:2:\"us\";s:8:\"flag_url\";s:85:\"http://loc.wizy/wp-content/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/us.png\";s:4:\"flag\";s:576:\"<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII=\" alt=\"English\" width=\"16\" height=\"11\" style=\"width: 16px; height: 11px;\" />\";s:15:\"custom_flag_url\";s:0:\"\";s:11:\"custom_flag\";s:0:\"\";s:6:\"active\";b:1;s:9:\"fallbacks\";a:0:{}s:10:\"is_default\";b:0;s:10:\"term_props\";a:2:{s:8:\"language\";a:3:{s:7:\"term_id\";i:5;s:16:\"term_taxonomy_id\";i:5;s:5:\"count\";i:1;}s:13:\"term_language\";a:3:{s:7:\"term_id\";i:6;s:16:\"term_taxonomy_id\";i:6;s:5:\"count\";i:1;}}}}', 'on');
+(456, '_site_transient_timeout_wp_theme_files_patterns-f82abeaaba57656b6649fcbbf5682641', '1768920073', 'off'),
+(457, '_site_transient_wp_theme_files_patterns-f82abeaaba57656b6649fcbbf5682641', 'a:2:{s:7:\"version\";s:3:\"1.0\";s:8:\"patterns\";a:0:{}}', 'off'),
+(459, '_transient_pll_languages_list', 'a:2:{i:0;a:22:{s:4:\"name\";s:20:\"Українська\";s:4:\"slug\";s:2:\"uk\";s:10:\"term_group\";i:0;s:7:\"term_id\";i:2;s:6:\"locale\";s:2:\"uk\";s:6:\"is_rtl\";i:0;s:3:\"w3c\";s:2:\"uk\";s:8:\"facebook\";s:5:\"uk_UA\";s:8:\"home_url\";s:16:\"http://loc.wizy/\";s:10:\"search_url\";s:16:\"http://loc.wizy/\";s:4:\"host\";N;s:13:\"page_on_front\";i:15;s:14:\"page_for_posts\";i:0;s:9:\"flag_code\";s:2:\"ua\";s:8:\"flag_url\";s:85:\"http://loc.wizy/wp-content/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/ua.png\";s:4:\"flag\";s:457:\"<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAb1BMVEUAhP8AfP0Ac/oAZ/UAV/B5yv9wxv5iwf1WvP1Ot/gAQOlMt/1Bs/s1rfkpqPdBsfYdovUAkciK0edqwuBautpNtdZAr9IATZr43QD8/GX6+kn5+Tr4+C329iD09BTy8g309DHguQDy8iruzwDnwwAuoRPoAAAASElEQVR4AU3MAQYDQRAF0Ve9WRAQYO5/zUgSDIxf8DQdiGR3I7v0YOLS3ns4PPt8Wq86vn6vVht7NRzG0OHRSpDb8Gt5IvjAHy/kBL+aIRygAAAAAElFTkSuQmCC\" alt=\"Українська\" width=\"16\" height=\"11\" style=\"width: 16px; height: 11px;\" />\";s:15:\"custom_flag_url\";s:0:\"\";s:11:\"custom_flag\";s:0:\"\";s:6:\"active\";b:1;s:9:\"fallbacks\";a:0:{}s:10:\"is_default\";b:1;s:10:\"term_props\";a:2:{s:8:\"language\";a:3:{s:7:\"term_id\";i:2;s:16:\"term_taxonomy_id\";i:2;s:5:\"count\";i:1;}s:13:\"term_language\";a:3:{s:7:\"term_id\";i:3;s:16:\"term_taxonomy_id\";i:3;s:5:\"count\";i:1;}}}i:1;a:22:{s:4:\"name\";s:7:\"English\";s:4:\"slug\";s:2:\"en\";s:10:\"term_group\";i:0;s:7:\"term_id\";i:5;s:6:\"locale\";s:5:\"en_US\";s:6:\"is_rtl\";i:0;s:3:\"w3c\";s:5:\"en-US\";s:8:\"facebook\";s:5:\"en_US\";s:8:\"home_url\";s:24:\"http://loc.wizy/en/main/\";s:10:\"search_url\";s:19:\"http://loc.wizy/en/\";s:4:\"host\";N;s:13:\"page_on_front\";i:18;s:14:\"page_for_posts\";i:0;s:9:\"flag_code\";s:2:\"us\";s:8:\"flag_url\";s:85:\"http://loc.wizy/wp-content/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/us.png\";s:4:\"flag\";s:576:\"<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII=\" alt=\"English\" width=\"16\" height=\"11\" style=\"width: 16px; height: 11px;\" />\";s:15:\"custom_flag_url\";s:0:\"\";s:11:\"custom_flag\";s:0:\"\";s:6:\"active\";b:1;s:9:\"fallbacks\";a:0:{}s:10:\"is_default\";b:0;s:10:\"term_props\";a:2:{s:8:\"language\";a:3:{s:7:\"term_id\";i:5;s:16:\"term_taxonomy_id\";i:5;s:5:\"count\";i:1;}s:13:\"term_language\";a:3:{s:7:\"term_id\";i:6;s:16:\"term_taxonomy_id\";i:6;s:5:\"count\";i:1;}}}}', 'on');
 
 -- --------------------------------------------------------
 
@@ -337,7 +337,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (45, 10, '_menu_item_xfn', ''),
 (46, 10, '_menu_item_url', '#aboutus'),
 (60, 15, '_edit_last', '1'),
-(61, 15, '_edit_lock', '1768917020:1'),
+(61, 15, '_edit_lock', '1768918279:1'),
 (62, 15, '_wp_page_template', 'index.php'),
 (63, 17, '_menu_item_type', 'post_type'),
 (64, 17, '_menu_item_menu_item_parent', '0'),
@@ -514,7 +514,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (240, 40, 'isActive', '1'),
 (241, 40, '_isActive', 'field_696776f3dfac7'),
 (242, 43, '_edit_last', '1'),
-(243, 43, '_edit_lock', '1768916078:1'),
+(243, 43, '_edit_lock', '1768917695:1'),
 (244, 61, '_wp_attached_file', '2026/01/logo.png'),
 (245, 61, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:155;s:6:\"height\";i:80;s:4:\"file\";s:16:\"2026/01/logo.png\";s:8:\"filesize\";i:3663;s:5:\"sizes\";a:1:{s:9:\"thumbnail\";a:5:{s:4:\"file\";s:15:\"logo-150x80.png\";s:5:\"width\";i:150;s:6:\"height\";i:80;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:2668;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (246, 62, '_wp_attached_file', '2026/01/group-185.png'),
@@ -938,7 +938,160 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (664, 75, '_wp_attached_file', '2026/01/gplay.png'),
 (665, 75, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:245;s:6:\"height\";i:70;s:4:\"file\";s:17:\"2026/01/gplay.png\";s:8:\"filesize\";i:4814;s:5:\"sizes\";a:1:{s:9:\"thumbnail\";a:5:{s:4:\"file\";s:16:\"gplay-150x70.png\";s:5:\"width\";i:150;s:6:\"height\";i:70;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:1429;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (666, 76, '_wp_attached_file', '2026/01/apple.png'),
-(667, 76, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:245;s:6:\"height\";i:70;s:4:\"file\";s:17:\"2026/01/apple.png\";s:8:\"filesize\";i:4184;s:5:\"sizes\";a:1:{s:9:\"thumbnail\";a:5:{s:4:\"file\";s:16:\"apple-150x70.png\";s:5:\"width\";i:150;s:6:\"height\";i:70;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:1520;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}');
+(667, 76, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:245;s:6:\"height\";i:70;s:4:\"file\";s:17:\"2026/01/apple.png\";s:8:\"filesize\";i:4184;s:5:\"sizes\";a:1:{s:9:\"thumbnail\";a:5:{s:4:\"file\";s:16:\"apple-150x70.png\";s:5:\"width\";i:150;s:6:\"height\";i:70;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:1520;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(668, 78, '_edit_last', '1'),
+(669, 78, '_edit_lock', '1768918581:1'),
+(670, 87, '_wp_attached_file', '2026/01/rectangle-191.png'),
+(671, 87, '_wp_attachment_metadata', 'a:6:{s:5:\"width\";i:553;s:6:\"height\";i:346;s:4:\"file\";s:25:\"2026/01/rectangle-191.png\";s:8:\"filesize\";i:419369;s:5:\"sizes\";a:2:{s:6:\"medium\";a:5:{s:4:\"file\";s:25:\"rectangle-191-300x188.png\";s:5:\"width\";i:300;s:6:\"height\";i:188;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:32713;}s:9:\"thumbnail\";a:5:{s:4:\"file\";s:25:\"rectangle-191-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";s:8:\"filesize\";i:14505;}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(672, 15, 'format_isActive', '1'),
+(673, 15, '_format_isActive', 'field_696f8b9d43155'),
+(674, 18, '_format_isActive', 'field_696f8b9d43155'),
+(675, 15, 'format_title', 'Оберіть свій формат поїздки'),
+(676, 15, '_format_title', 'field_696f8b5243153'),
+(677, 18, '_format_title', 'field_696f8b5243153'),
+(678, 15, 'format_subtitle', 'Попутка, люксбас чи трансфер — ви вирішуєте, як саме подорожувати.'),
+(679, 15, '_format_subtitle', 'field_696f8b7c43154'),
+(680, 18, '_format_subtitle', 'field_696f8b7c43154'),
+(681, 15, 'format_items_0_title', 'Попутка'),
+(682, 15, '_format_items_0_title', 'field_696f8bff43157'),
+(683, 18, '_format_items_0_title', 'field_696f8bff43157'),
+(684, 15, 'format_items_0_descr', 'Коли їдеш у комфортному авто, а не в тісному автобусі.'),
+(685, 15, '_format_items_0_descr', 'field_696f8c1443158'),
+(686, 18, '_format_items_0_descr', 'field_696f8c1443158'),
+(687, 15, 'format_items_0_btn', 'a:3:{s:5:\"title\";s:31:\"Дізнатися більше\";s:3:\"url\";s:16:\"http://loc.wizy/\";s:6:\"target\";s:0:\"\";}'),
+(688, 15, '_format_items_0_btn', 'field_696f8c2d43159'),
+(689, 18, '_format_items_0_btn', 'field_696f8c2d43159'),
+(690, 15, 'format_items_0_img', '87'),
+(691, 15, '_format_items_0_img', 'field_696f8c4c4315a'),
+(692, 18, '_format_items_0_img', 'field_696f8c4c4315a'),
+(693, 15, 'format_items_1_title', 'Попутка'),
+(694, 15, '_format_items_1_title', 'field_696f8bff43157'),
+(695, 18, '_format_items_1_title', 'field_696f8bff43157'),
+(696, 15, 'format_items_1_descr', 'Коли їдеш у комфортному авто, а не в тісному автобусі.'),
+(697, 15, '_format_items_1_descr', 'field_696f8c1443158'),
+(698, 18, '_format_items_1_descr', 'field_696f8c1443158'),
+(699, 15, 'format_items_1_btn', 'a:3:{s:5:\"title\";s:31:\"Дізнатися більше\";s:3:\"url\";s:16:\"http://loc.wizy/\";s:6:\"target\";s:0:\"\";}'),
+(700, 15, '_format_items_1_btn', 'field_696f8c2d43159'),
+(701, 18, '_format_items_1_btn', 'field_696f8c2d43159'),
+(702, 15, 'format_items_1_img', '87'),
+(703, 15, '_format_items_1_img', 'field_696f8c4c4315a'),
+(704, 18, '_format_items_1_img', 'field_696f8c4c4315a'),
+(705, 15, 'format_items', '2'),
+(706, 15, '_format_items', 'field_696f8bec43156'),
+(707, 18, '_format_items', 'field_696f8bec43156'),
+(708, 77, 'title', 'Як працює'),
+(709, 77, '_title', 'field_69677ca007127'),
+(710, 77, 'subtitle', 'Попутки, трансфери та люксбаси — швидко, зручно, в одному сервісі.'),
+(711, 77, '_subtitle', 'field_696757f97d2fd'),
+(712, 77, 'applink_link', 'a:3:{s:5:\"title\";s:0:\"\";s:3:\"url\";s:23:\"https://www.google.com/\";s:6:\"target\";s:0:\"\";}'),
+(713, 77, '_applink_link', 'field_696758847d2ff'),
+(714, 77, 'applink_', '33'),
+(715, 77, '_applink_', 'field_696758a57d300'),
+(716, 77, 'applink', ''),
+(717, 77, '_applink', 'field_696758387d2fe'),
+(718, 77, 'applinkScnd_link', 'a:3:{s:5:\"title\";s:0:\"\";s:3:\"url\";s:23:\"https://www.google.com/\";s:6:\"target\";s:0:\"\";}'),
+(719, 77, '_applinkScnd_link', 'field_696758bd7d302'),
+(720, 77, 'applinkScnd_', '34'),
+(721, 77, '_applinkScnd_', 'field_696758bd7d303'),
+(722, 77, 'applinkScnd', ''),
+(723, 77, '_applinkScnd', 'field_696758bd7d301'),
+(724, 77, 'mobImage', '22'),
+(725, 77, '_mobImage', 'field_696758da7d304'),
+(726, 77, 'image', '21'),
+(727, 77, '_image', 'field_696759657d305'),
+(728, 77, 'applink_img', '76'),
+(729, 77, '_applink_img', 'field_696758a57d300'),
+(730, 77, 'applinkScnd_img', '75'),
+(731, 77, '_applinkScnd_img', 'field_696758bd7d303'),
+(732, 77, 'isActive', '1'),
+(733, 77, '_isActive', 'field_696776f3dfac7'),
+(734, 77, 'hit_isActive', '1'),
+(735, 77, '_hit_isActive', 'field_6967779a84884'),
+(736, 77, 'hiw_title_title', 'Як працює'),
+(737, 77, '_hiw_title_title', 'field_6967782084887'),
+(738, 77, 'hiw_title_img', '61'),
+(739, 77, '_hiw_title_img', 'field_6967783284888'),
+(740, 77, 'hiw_title', ''),
+(741, 77, '_hiw_title', 'field_69677e2c4aaa4'),
+(742, 77, 'hiw_steps_0_title', 'Оберіть формат поїздки'),
+(743, 77, '_hiw_steps_0_title', 'field_696778988488b'),
+(744, 77, 'hiw_steps_0_descr', 'Попутка, люксбас або трансфер — просто виберіть, як вам зручніше їхати.'),
+(745, 77, '_hiw_steps_0_descr', 'field_696778bc8488c'),
+(746, 77, 'hiw_steps_1_title', 'Вкажіть маршрут'),
+(747, 77, '_hiw_steps_1_title', 'field_696778988488b'),
+(748, 77, 'hiw_steps_1_descr', 'Обирайте місто виїзду, пункт призначення та дату — система знайде найкращі варіанти.'),
+(749, 77, '_hiw_steps_1_descr', 'field_696778bc8488c'),
+(750, 77, 'hiw_steps_2_title', 'Забронюйте поїздку'),
+(751, 77, '_hiw_steps_2_title', 'field_696778988488b'),
+(752, 77, 'hiw_steps_2_descr', 'Перегляньте деталі, оберіть час та місце посадки й підтвердіть бронювання.'),
+(753, 77, '_hiw_steps_2_descr', 'field_696778bc8488c'),
+(754, 77, 'hiw_steps_3_title', 'Подорожуйте з комфортом'),
+(755, 77, '_hiw_steps_3_title', 'field_696778988488b'),
+(756, 77, 'hiw_steps_3_descr', 'Сідайте в авто чи люксбас і насолоджуйтесь дорогою. Усе інше ми вже подбали.'),
+(757, 77, '_hiw_steps_3_descr', 'field_696778bc8488c'),
+(758, 77, 'hiw_steps', '4'),
+(759, 77, '_hiw_steps', 'field_696778838488a'),
+(760, 77, 'hiw_decor', '62'),
+(761, 77, '_hiw_decor', 'field_69677932ed7d7'),
+(762, 77, 'hiw_bottom_title', 'Почати в застосунку'),
+(763, 77, '_hiw_bottom_title', 'field_69677977ed7d9'),
+(764, 77, 'hiw_bottom_applink_link', 'a:3:{s:5:\"title\";s:0:\"\";s:3:\"url\";s:23:\"https://www.google.com/\";s:6:\"target\";s:0:\"\";}'),
+(765, 77, '_hiw_bottom_applink_link', 'field_696779d5ed7db'),
+(766, 77, 'hiw_bottom_applink_img', '76'),
+(767, 77, '_hiw_bottom_applink_img', 'field_696779f3ed7dc'),
+(768, 77, 'hiw_bottom_applink', ''),
+(769, 77, '_hiw_bottom_applink', 'field_6967798bed7da'),
+(770, 77, 'hiw_bottom_applinkScnd_link', 'a:3:{s:5:\"title\";s:0:\"\";s:3:\"url\";s:23:\"https://www.google.com/\";s:6:\"target\";s:0:\"\";}'),
+(771, 77, '_hiw_bottom_applinkScnd_link', 'field_69677a1bed7de'),
+(772, 77, 'hiw_bottom_applinkScnd_img', '75'),
+(773, 77, '_hiw_bottom_applinkScnd_img', 'field_69677a1bed7df'),
+(774, 77, 'hiw_bottom_applinkScnd', ''),
+(775, 77, '_hiw_bottom_applinkScnd', 'field_69677a1bed7dd'),
+(776, 77, 'hiw_bottom', ''),
+(777, 77, '_hiw_bottom', 'field_6967794eed7d8'),
+(778, 77, 'hiw_isActive', '1'),
+(779, 77, '_hiw_isActive', 'field_6967779a84884'),
+(780, 77, 'img', '61'),
+(781, 77, '_img', 'field_69677cc207128'),
+(782, 77, 'hit_title-2', ''),
+(783, 77, '_hit_title-2', 'field_69677ce001c01'),
+(784, 77, 'hit_title_2', ''),
+(785, 77, '_hit_title_2', 'field_69677ce001c01'),
+(786, 77, 'customTitle_title', 'Як працює'),
+(787, 77, '_customTitle_title', 'field_69677dbfcdbfd'),
+(788, 77, 'customTitle_img', '61'),
+(789, 77, '_customTitle_img', 'field_69677dcccdbfe'),
+(790, 77, 'customTitle', ''),
+(791, 77, '_customTitle', 'field_69677da5cdbfc'),
+(792, 77, 'hit_title', ''),
+(793, 77, '_hit_title', 'field_69677ce001c01'),
+(794, 77, 'hiw_subtitle', 'Ваш шлях до зручної поїздки — у кілька простих кроків.'),
+(795, 77, '_hiw_subtitle', 'field_6967786784889'),
+(796, 77, 'format_isActive', '1'),
+(797, 77, '_format_isActive', 'field_696f8b9d43155'),
+(798, 77, 'format_title', 'Оберіть свій формат поїздки'),
+(799, 77, '_format_title', 'field_696f8b5243153'),
+(800, 77, 'format_subtitle', 'Попутка, люксбас чи трансфер — ви вирішуєте, як саме подорожувати.'),
+(801, 77, '_format_subtitle', 'field_696f8b7c43154'),
+(802, 77, 'format_items_0_title', 'Попутка'),
+(803, 77, '_format_items_0_title', 'field_696f8bff43157'),
+(804, 77, 'format_items_0_descr', 'Коли їдеш у комфортному авто, а не в тісному автобусі.'),
+(805, 77, '_format_items_0_descr', 'field_696f8c1443158'),
+(806, 77, 'format_items_0_btn', 'a:3:{s:5:\"title\";s:31:\"Дізнатися більше\";s:3:\"url\";s:16:\"http://loc.wizy/\";s:6:\"target\";s:0:\"\";}'),
+(807, 77, '_format_items_0_btn', 'field_696f8c2d43159'),
+(808, 77, 'format_items_0_img', '87'),
+(809, 77, '_format_items_0_img', 'field_696f8c4c4315a'),
+(810, 77, 'format_items_1_title', 'Попутка'),
+(811, 77, '_format_items_1_title', 'field_696f8bff43157'),
+(812, 77, 'format_items_1_descr', 'Коли їдеш у комфортному авто, а не в тісному автобусі.'),
+(813, 77, '_format_items_1_descr', 'field_696f8c1443158'),
+(814, 77, 'format_items_1_btn', 'a:3:{s:5:\"title\";s:31:\"Дізнатися більше\";s:3:\"url\";s:16:\"http://loc.wizy/\";s:6:\"target\";s:0:\"\";}'),
+(815, 77, '_format_items_1_btn', 'field_696f8c2d43159'),
+(816, 77, 'format_items_1_img', '87'),
+(817, 77, '_format_items_1_img', 'field_696f8c4c4315a'),
+(818, 77, 'format_items', '2'),
+(819, 77, '_format_items', 'field_696f8bec43156'),
+(820, 18, 'format_items', '2');
 
 -- --------------------------------------------------------
 
@@ -983,7 +1136,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (8, 1, '2026-01-13 12:41:28', '2026-01-13 09:15:39', '', 'Люксбас', '', 'publish', 'closed', 'closed', '', 'lyuksbas', '', '', '2026-01-13 12:41:28', '2026-01-13 09:41:28', '', 0, 'http://loc.wizy/?p=8', 3, 'nav_menu_item', '', 0),
 (9, 1, '2026-01-13 12:41:28', '2026-01-13 09:15:39', '', 'Трансфер', '', 'publish', 'closed', 'closed', '', 'transfer', '', '', '2026-01-13 12:41:28', '2026-01-13 09:41:28', '', 0, 'http://loc.wizy/?p=9', 4, 'nav_menu_item', '', 0),
 (10, 1, '2026-01-13 12:41:28', '2026-01-13 09:15:39', '', 'Про нас', '', 'publish', 'closed', 'closed', '', 'pro-nas', '', '', '2026-01-13 12:41:28', '2026-01-13 09:41:28', '', 0, 'http://loc.wizy/?p=10', 5, 'nav_menu_item', '', 0),
-(15, 1, '2026-01-13 12:40:41', '2026-01-13 09:40:41', '', 'Головна', '', 'publish', 'closed', 'closed', '', 'golovna', '', '', '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 0, 'http://loc.wizy/?page_id=15', 0, 'page', '', 0),
+(15, 1, '2026-01-13 12:40:41', '2026-01-13 09:40:41', '', 'Головна', '', 'publish', 'closed', 'closed', '', 'golovna', '', '', '2026-01-20 17:11:19', '2026-01-20 14:11:19', '', 0, 'http://loc.wizy/?page_id=15', 0, 'page', '', 0),
 (16, 1, '2026-01-13 12:40:41', '2026-01-13 09:40:41', '', 'Головна', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2026-01-13 12:40:41', '2026-01-13 09:40:41', '', 15, 'http://loc.wizy/?p=16', 0, 'revision', '', 0),
 (17, 1, '2026-01-13 12:41:27', '2026-01-13 09:41:27', ' ', '', '', 'publish', 'closed', 'closed', '', '17', '', '', '2026-01-13 12:41:27', '2026-01-13 09:41:27', '', 0, 'http://loc.wizy/?p=17', 1, 'nav_menu_item', '', 0),
 (18, 1, '2026-01-13 13:26:18', '2026-01-13 10:26:18', '', 'main', '', 'publish', 'closed', 'closed', '', 'main', '', '', '2026-01-13 13:26:18', '2026-01-13 10:26:18', '', 0, 'http://loc.wizy/?page_id=18', 0, 'page', '', 0),
@@ -1039,7 +1192,18 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (74, 1, '2026-01-20 16:23:12', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2026-01-20 16:23:12', '0000-00-00 00:00:00', '', 0, 'http://loc.wizy/?p=74', 0, 'post', '', 0),
 (75, 1, '2026-01-20 16:49:43', '2026-01-20 13:49:43', '', 'gplay', '', 'inherit', 'open', 'closed', '', 'gplay', '', '', '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 15, 'http://loc.wizy/wp-content/uploads/2026/01/gplay.png', 0, 'attachment', 'image/png', 0),
 (76, 1, '2026-01-20 16:49:44', '2026-01-20 13:49:44', '', 'apple', '', 'inherit', 'open', 'closed', '', 'apple', '', '', '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 15, 'http://loc.wizy/wp-content/uploads/2026/01/apple.png', 0, 'attachment', 'image/png', 0),
-(77, 1, '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 'Головна', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 15, 'http://loc.wizy/?p=77', 0, 'revision', '', 0);
+(77, 1, '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 'Головна', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2026-01-20 16:50:20', '2026-01-20 13:50:20', '', 15, 'http://loc.wizy/?p=77', 0, 'revision', '', 0),
+(78, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:8:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:9:\"index.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;}', 'Блок формат поездки', 'blok-format-poezdki', 'publish', 'closed', 'closed', '', 'group_696f8b522c389', '', '', '2026-01-20 17:10:13', '2026-01-20 14:10:13', '', 0, 'http://loc.wizy/?post_type=acf-field-group&#038;p=78', 0, 'acf-field-group', '', 0),
+(79, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:10:\"true_false\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:7:\"message\";s:0:\"\";s:13:\"default_value\";i:1;s:12:\"translations\";s:9:\"copy_once\";s:2:\"ui\";i:0;s:10:\"ui_on_text\";s:0:\"\";s:11:\"ui_off_text\";s:0:\"\";}', 'Активный блок', 'format_isActive', 'publish', 'closed', 'closed', '', 'field_696f8b9d43155', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 78, 'http://loc.wizy/?post_type=acf-field&p=79', 0, 'acf-field', '', 0),
+(80, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:51:\"Оберіть свій формат поїздки\";s:12:\"translations\";s:9:\"translate\";s:9:\"maxlength\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";}', 'Заголовок', 'format_title', 'publish', 'closed', 'closed', '', 'field_696f8b5243153', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 78, 'http://loc.wizy/?post_type=acf-field&p=80', 1, 'acf-field', '', 0),
+(81, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:121:\"Попутка, люксбас чи трансфер — ви вирішуєте, як саме подорожувати.\";s:12:\"translations\";s:9:\"translate\";s:9:\"maxlength\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";}', 'Подзаголовок', 'format_subtitle', 'publish', 'closed', 'closed', '', 'field_696f8b7c43154', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 78, 'http://loc.wizy/?post_type=acf-field&p=81', 2, 'acf-field', '', 0),
+(82, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:13:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:6:\"layout\";s:5:\"table\";s:10:\"pagination\";i:0;s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:9:\"collapsed\";s:0:\"\";s:12:\"button_label\";s:0:\"\";s:13:\"rows_per_page\";i:20;}', 'Форматы', 'format_items', 'publish', 'closed', 'closed', '', 'field_696f8bec43156', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 78, 'http://loc.wizy/?post_type=acf-field&p=82', 3, 'acf-field', '', 0),
+(83, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:14:\"Попутка\";s:12:\"translations\";s:9:\"translate\";s:9:\"maxlength\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";}', 'Заголовок', 'title', 'publish', 'closed', 'closed', '', 'field_696f8bff43157', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 82, 'http://loc.wizy/?post_type=acf-field&p=83', 0, 'acf-field', '', 0),
+(84, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:12:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:97:\"Коли їдеш у комфортному авто, а не в тісному автобусі.\";s:12:\"translations\";s:9:\"translate\";s:9:\"maxlength\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";}', 'описание', 'descr', 'publish', 'closed', 'closed', '', 'field_696f8c1443158', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 82, 'http://loc.wizy/?post_type=acf-field&p=84', 1, 'acf-field', '', 0),
+(85, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:8:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"link\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:5:\"array\";s:12:\"translations\";s:9:\"copy_once\";}', 'Кнопка', 'btn', 'publish', 'closed', 'closed', '', 'field_696f8c2d43159', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 82, 'http://loc.wizy/?post_type=acf-field&p=85', 2, 'acf-field', '', 0),
+(86, 1, '2026-01-20 17:08:37', '2026-01-20 14:08:37', 'a:17:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:5:\"array\";s:7:\"library\";s:3:\"all\";s:12:\"translations\";s:9:\"copy_once\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";s:12:\"preview_size\";s:6:\"medium\";}', 'Изображение', 'img', 'publish', 'closed', 'closed', '', 'field_696f8c4c4315a', '', '', '2026-01-20 17:08:37', '2026-01-20 14:08:37', '', 82, 'http://loc.wizy/?post_type=acf-field&p=86', 3, 'acf-field', '', 0),
+(87, 1, '2026-01-20 17:11:02', '2026-01-20 14:11:02', '', 'Rectangle 191', '', 'inherit', 'open', 'closed', '', 'rectangle-191', '', '', '2026-01-20 17:11:02', '2026-01-20 14:11:02', '', 15, 'http://loc.wizy/wp-content/uploads/2026/01/rectangle-191.png', 0, 'attachment', 'image/png', 0),
+(88, 1, '2026-01-20 17:11:19', '2026-01-20 14:11:19', '', 'Головна', '', 'inherit', 'closed', 'closed', '', '15-revision-v1', '', '', '2026-01-20 17:11:19', '2026-01-20 14:11:19', '', 15, 'http://loc.wizy/?p=88', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1190,7 +1354,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (23, 1, 'wp_user-settings-time', '1768380964'),
 (24, 1, 'closedpostboxes_page', 'a:2:{i:0;s:23:\"acf-group_696757c7b05dd\";i:1;s:23:\"acf-group_6967779a79aab\";}'),
 (25, 1, 'metaboxhidden_page', 'a:6:{i:0;s:12:\"revisionsdiv\";i:1;s:11:\"postexcerpt\";i:2;s:16:\"commentstatusdiv\";i:3;s:11:\"commentsdiv\";i:4;s:7:\"slugdiv\";i:5;s:9:\"authordiv\";}'),
-(26, 1, 'meta-box-order_page', 'a:4:{s:15:\"acf_after_title\";s:0:\"\";s:4:\"side\";s:43:\"ml_box,submitdiv,pageparentdiv,postimagediv\";s:6:\"normal\";s:119:\"acf-group_696757c7b05dd,acf-group_6967779a79aab,revisionsdiv,postexcerpt,commentstatusdiv,commentsdiv,slugdiv,authordiv\";s:8:\"advanced\";s:0:\"\";}'),
+(26, 1, 'meta-box-order_page', 'a:4:{s:15:\"acf_after_title\";s:0:\"\";s:4:\"side\";s:43:\"ml_box,submitdiv,pageparentdiv,postimagediv\";s:6:\"normal\";s:143:\"acf-group_696757c7b05dd,acf-group_6967779a79aab,acf-group_696f8b522c389,revisionsdiv,postexcerpt,commentstatusdiv,commentsdiv,slugdiv,authordiv\";s:8:\"advanced\";s:0:\"\";}'),
 (27, 1, 'screen_layout_page', '2');
 
 -- --------------------------------------------------------
@@ -1349,19 +1513,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=456;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=460;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=668;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=821;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
 
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`

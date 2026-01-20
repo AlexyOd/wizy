@@ -14,7 +14,7 @@ get_header(); ?>
     }
   ?>
 
-   <?php
+  <?php
     $hiw = get_template_directory() . '/parts/main/hiw.php';
     if (file_exists($hiw)) {
       include $hiw;
@@ -22,10 +22,18 @@ get_header(); ?>
       echo 'Файл hiw.php не найден';
     }
   ?>
+  <?php
+    $format = get_template_directory() . '/parts/main/format.php';
+    if (file_exists($format)) {
+      include $format;
+    } else {
+      echo 'Файл format.php не найден';
+    }
+  ?>
 </main>
 
 
-<?php
+  <?php
     $popups = get_template_directory() . '/parts/main/popups.php';
     if (file_exists($popups)) {
       include $popups;
