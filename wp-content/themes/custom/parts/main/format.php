@@ -33,7 +33,7 @@
                             <p class="format__item--title">
                                 <?php echo $title; ?>
                             </p>
-                            <p class="format__item--descr">
+                            <p class="format__item--descr global__subtitle">
                                 <?php echo $descr; ?>
                             </p>
                             <a class="format__item--btn" href="<?php echo $btn['url']; ?>">
