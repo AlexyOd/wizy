@@ -1,4 +1,5 @@
 .format { 
+    padding: 1rem 0;
     &__container {
         display: flex;
         gap: 10px;
@@ -135,6 +136,7 @@
             .col-12 {
                 @include media-breakpoint-up(md) {
                     order: 2;
+                    align-self: ;
                 }
                 &:nth-child(2) {
                     @include media-breakpoint-up(md) {

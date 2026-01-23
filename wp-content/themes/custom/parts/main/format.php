@@ -30,8 +30,8 @@
                 $colClass2 = 'col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2';
 
                 if($is_even = $index % 2 === 1) {
-                    $colClass2 = 'col-12 col-md-6 col-lg-5 col-xxl-5 align-self-center';
-                    $colClass1= 'col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2';
+                    $colClass2 = 'col-12 col-md-6 col-lg-5 col-xxl-5 ';
+                    $colClass1= 'col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2 align-self-center';
                 }
         ?>
             <div class="format__item">
@@ -44,7 +44,7 @@
                             <p class="format__item--descr global__subtitle">
                                 <?php echo $descr; ?>
                             </p>
-                            <a class="format__item--btn" href="<?php echo $btn['url']; ?>">
+                            <a class="format__item--btn btn btn__green" href="<?php echo $btn['url']; ?>">
                                 <?php echo $btn['title']; ?>
                             </a>
                         </div>
@@ -57,14 +57,6 @@
         <?php
             }
         ?>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-5 col-xxl-5">
-                col2
-            </div>
-            <div class="col-12 col-md-6 offset-lg-1 col-xxl-5 offset-xxl-2">
-                col
-            </div>
-        </div>
     </div>
 </div>
 <?php endif; ?>

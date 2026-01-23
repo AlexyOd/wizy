@@ -103,4 +103,52 @@ body {
         }
     }
 
+    &__container{ 
+
+    }
+
 }
+
+.btn{ 
+        display: block;
+        border-radius: 20px;
+        background: var(--Cta, #28B446);
+        text-align: center;
+        width: 172px;
+        max-width: 100%;
+        padding: 11px 0;
+        margin-top: 20px;
+
+        color: #FFF;
+
+        /* btn - 320 */
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 18px */
+        letter-spacing: 0.06px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-breakpoint-up(sm) {
+            width: 224px;
+            font-size: 16px;
+            padding: 15px 0;
+        }
+        @include media-breakpoint-up(md) {
+            width: 220px;
+            font-size: 16px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            width: 245px;
+        }
+
+        &:hover {
+            background: var(--secondary, #191F18);
+        }
+
+    }
