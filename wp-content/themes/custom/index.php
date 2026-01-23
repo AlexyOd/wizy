@@ -30,6 +30,32 @@ get_header(); ?>
       echo 'Файл format.php не найден';
     }
   ?>
+
+  <?php
+    $wywi = get_template_directory() . '/parts/main/wywi.php';
+    if (file_exists($wywi)) {
+      include $wywi;
+    } else {
+      echo 'Файл wywi.php не найден';
+    }
+  ?>
+  <?php
+    $intch = get_template_directory() . '/parts/main/intch.php';
+    if (file_exists($intch)) {
+      include $intch;
+    } else {
+      echo 'Файл intch.php не найден';
+    }
+  ?>
+
+  <?php
+    $safe = get_template_directory() . '/parts/main/safe.php';
+    if (file_exists($safe)) {
+      include $safe;
+    } else {
+      echo 'Файл safe.php не найден';
+    }
+  ?>
 </main>
 
 
@@ -41,6 +67,8 @@ get_header(); ?>
       echo 'Файл popups.php не найден';
     }
   ?>
+
+
 </div>
 
 

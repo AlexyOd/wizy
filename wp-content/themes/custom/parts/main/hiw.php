@@ -6,16 +6,14 @@
     $hiw_decor = get_field('hiw_decor');
     $hiw_bottom = get_field('hiw_bottom');
 ?>
-<?php if($isActive) : ?>
-    
-
+<?php if($hiw_isActive) : ?>
 <div class="hiw">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <?php
                     $hiw_customTitle = get_template_directory() . '/parts/main/customTitle.php';
-                    $customTitle = $hiw_title;
+                    $customTitle = $hiw_title['customTitle'];
                     if (file_exists($hiw_customTitle)) {
                         include $hiw_customTitle;
                     }

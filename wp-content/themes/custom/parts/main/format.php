@@ -44,7 +44,7 @@
                             <p class="format__item--descr global__subtitle">
                                 <?php echo $descr; ?>
                             </p>
-                            <a class="format__item--btn btn btn__green" href="<?php echo $btn['url']; ?>">
+                            <a class="format__item--btn btn btn__green" href="<?php echo $btn['url']; ?>" target="_blank">
                                 <?php echo $btn['title']; ?>
                             </a>
                         </div>

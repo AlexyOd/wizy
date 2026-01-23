@@ -40,7 +40,7 @@
     <header class="header <?php echo is_front_page() ? '' : 'other-page-class'; ?>">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-6 col-xl-2">
+          <div class="col-5 col-xl-2">
             <a class="logo" href="<?php echo get_home_url(); ?>/">
               <img src="<?php echo get_template_directory_uri(); ?>/dist/img/logo.svg" class="d-xl-block" alt="FleetSoft">
             </a>
@@ -74,7 +74,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 order-2 order-xl-3 col-xl-2 d-flex">
+          <div class="col-5 order-2 order-xl-3 col-xl-2 d-flex">
             <?php
               $lang = get_template_directory() . '/parts/lang.php';
               if (file_exists($lang)) {

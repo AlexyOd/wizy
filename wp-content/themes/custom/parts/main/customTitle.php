@@ -1,6 +1,6 @@
 <?php
-    $title = $hiw_title['title'];
-    $img = $hiw_title['img'];
+    $title = $customTitle['title'];
+    $img = $customTitle['img'];
 ?>
 
 <p class="global__title">
