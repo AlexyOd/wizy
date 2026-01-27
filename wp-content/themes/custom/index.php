@@ -57,18 +57,6 @@ get_header(); ?>
     }
   ?>
 </main>
-
-
-  <?php
-    $popups = get_template_directory() . '/parts/main/popups.php';
-    if (file_exists($popups)) {
-      include $popups;
-    } else {
-      echo 'Файл popups.php не найден';
-    }
-  ?>
-
-
 </div>
 
 
