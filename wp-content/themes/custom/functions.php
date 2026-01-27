@@ -240,19 +240,21 @@ add_action( 'after_setup_theme', function () {
 	] );
 } );
 
-pll_register_string( 'header', 'call-to-us' );
+// pll_register_string( 'header', 'call-to-us' );
 
-pll_register_string( 'form', 'error_req');
-pll_register_string( 'form', 'error_phone');
+// pll_register_string( 'form', 'error_req');
+// pll_register_string( 'form', 'error_phone');
 
 
-pll_register_string( 'popup__error', 'error_title');
-pll_register_string( 'popup__error', 'error_descr');
-pll_register_string( 'popup__success', 'success_title');
-pll_register_string( 'popup__success', 'success_descr');
+// pll_register_string( 'popup__error', 'error_title');
+// pll_register_string( 'popup__error', 'error_descr');
+// pll_register_string( 'popup__success', 'success_title');
+// pll_register_string( 'popup__success', 'success_descr');
 
 pll_register_string( 'footer', 'footer__text');
+pll_register_string( 'footer', 'footer_app_title');
 pll_register_string( 'footer', 'footer__copyright');
+
 
 function getPostViews( $postID ) {
 	$count_key = 'post_views_count';
@@ -602,7 +604,7 @@ add_action( 'customize_register', function ( $customizer ) {
     $customizer->add_section(
         'contacts',
         array(
-            'title'    => 'Контактные данные',
+            'title'    => 'Прилижения',
             'priority' => 11,
         )
     );
@@ -620,7 +622,7 @@ add_action( 'customize_register', function ( $customizer ) {
             $customizer,
             'contact_heading',
             array(
-                'label'    => __( 'АДРЕС', 'theme_textdomain' ),
+                'label'    => __( 'Почати в застосунку', 'theme_textdomain' ),
                 'section'  => 'contacts',
                 'settings' => 'contact_heading',
                 'type'     => 'hidden',
@@ -629,117 +631,10 @@ add_action( 'customize_register', function ( $customizer ) {
     );
 
     // Настройки и контроли для "Адрес"
-    add_customizer_setting_and_control($customizer, 'contact-icon', 'Иконка', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-label', 'Лейбл', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-value', 'Значение', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-href', 'Ссылка', 'contacts');
+    add_customizer_setting_and_control($customizer, 'app-apple', 'Apple', 'contacts');
+    add_customizer_setting_and_control($customizer, 'app-google', 'Google', 'contacts');
 
-    // Подменю "Телефон"
-    $customizer->add_setting(
-        'contact_1_heading',
-        array(
-            'default'           => '',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-    $customizer->add_control(
-        new WP_Customize_Control(
-            $customizer,
-            'contact_1_heading',
-            array(
-                'label'    => __( 'ТЕЛЕФОН', 'theme_textdomain' ),
-                'section'  => 'contacts',
-                'settings' => 'contact_1_heading',
-                'type'     => 'hidden',
-            )
-        )
-    );
-
-    // Настройки и контроли для "Телефон"
-    add_customizer_setting_and_control($customizer, 'contact-1-icon', 'Иконка', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-1-label', 'Лейбл', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-1-value', 'Значение', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-1-href', 'Ссылка', 'contacts');
-
-    // Подменю "Ссылка"
-    $customizer->add_setting(
-        'contact_2_heading',
-        array(
-            'default'           => '',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-    $customizer->add_control(
-        new WP_Customize_Control(
-            $customizer,
-            'contact_2_heading',
-            array(
-                'label'    => __( 'ССЫЛКА', 'theme_textdomain' ),
-                'section'  => 'contacts',
-                'settings' => 'contact_2_heading',
-                'type'     => 'hidden',
-            )
-        )
-    );
-
-    // Настройки и контроли для "Ссылка"
-    add_customizer_setting_and_control($customizer, 'contact-2-icon', 'Иконка', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-2-label', 'Лейбл', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-2-value', 'Значение', 'contacts');
-    add_customizer_setting_and_control($customizer, 'contact-2-href', 'Ссылка', 'contacts');
-
-	// Подменю "Ссылка-иконка-1"
-	   $customizer->add_setting(
-        'contact_icon_1',
-        array(
-            'default'           => '',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-    $customizer->add_control(
-        new WP_Customize_Control(
-            $customizer,
-            'contact_icon_1',
-            array(
-                'label'    => __( 'ССЫЛКА ИКОНКА', 'theme_textdomain' ),
-                'section'  => 'contacts',
-                'settings' => 'contact_icon_1',
-                'type'     => 'hidden',
-            )
-        )
-    );
-	
-	
-	add_customizer_setting_and_control($customizer, 'contact-icon-1', 'иконка', 'contacts');
-	add_customizer_setting_and_control($customizer, 'contact-icon-1-href', 'Ссылка', 'contacts');
-
-	// Подменю "Ссылка-иконка-1"
-	$customizer->add_setting(
-        'contact_icon_2',
-        array(
-            'default'           => '',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-    $customizer->add_control(
-        new WP_Customize_Control(
-            $customizer,
-            'contact_icon_2',
-            array(
-                'label'    => __( 'ССЫЛКА ИКОНКА 2', 'theme_textdomain' ),
-                'section'  => 'contacts',
-                'settings' => 'contact_icon_2',
-                'type'     => 'hidden',
-            )
-        )
-    );
-	
-	
-	add_customizer_setting_and_control($customizer, 'contact-icon-2', 'иконка', 'contacts');
-	add_customizer_setting_and_control($customizer, 'contact-icon-2-href', 'Ссылка', 'contacts');
-
-	// add_customizer_setting_and_control($customizer, 'contact-icon', 'иконка', 'contacts');
-	// add_customizer_setting_and_control($customizer, 'contact-icon-href', 'Ссылка', 'contacts');
+    
 
 	
     // Секция "Контактные данные"
@@ -752,21 +647,41 @@ add_action( 'customize_register', function ( $customizer ) {
     );
 
 	$customizer->add_setting(
-        'telega',
+        'telegram',
         array(
-            'default'           => '',
+            'default'           => 'telegram',
             'sanitize_callback' => '__return_false',
         )
     );
 
-
-	
+	$customizer->add_setting(
+        'tiktoc',
+        array(
+            'default'           => 'tiktoc',
+            'sanitize_callback' => '__return_false',
+        )
+    );
+	$customizer->add_setting(
+        'insta',
+        array(
+            'default'           => 'insta',
+            'sanitize_callback' => '__return_false',
+        )
+    );
+	$customizer->add_setting(
+        'email',
+        array(
+            'default'           => 'email',
+            'sanitize_callback' => '__return_false',
+        )
+    );
 
     // Настройки и контроли для "Ссылка"
 	add_customizer_setting_and_control($customizer, 'telegram', 'Телеграмм', 'socials');
 	add_customizer_setting_and_control($customizer, 'insta', 'Инстограм', 'socials');
-	add_customizer_setting_and_control($customizer, 'watsapp', 'Вотсап', 'socials');
-	add_customizer_setting_and_control($customizer, 'youtube', 'ютуб', 'socials');
+	add_customizer_setting_and_control($customizer, 'tiktoc', 'tiktoc', 'socials');
+	add_customizer_setting_and_control($customizer, 'email', 'e-mail', 'socials');
+	//add_customizer_setting_and_control($customizer, 'youtube', 'ютуб', 'socials');
 
 	
 

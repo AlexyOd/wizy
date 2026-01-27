@@ -1,14 +1,15 @@
 header { 
     padding: 8px 0;
-}
-.logo img{
-    max-width: 90px;
-
-    @include media-breakpoint-up(sm) { 
-        max-width: 152px;
-    }
-    @include media-breakpoint-up(xl) { 
-        max-width: 175px;
+    
+    .logo img{
+        max-width: 90px;
+    
+        @include media-breakpoint-up(sm) { 
+            max-width: 152px;
+        }
+        @include media-breakpoint-up(xl) { 
+            max-width: 175px;
+        }
     }
 }
 .menu-main {
