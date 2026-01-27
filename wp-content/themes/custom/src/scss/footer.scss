@@ -49,6 +49,21 @@
         letter-spacing: 0.06px;
     }
 
+    &__app {
+        &--text { 
+            color: #FFF;
+            text-align: center;
+
+            /* h3 -320 */
+            font-family: Urbanist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 27px */
+            letter-spacing: 0.09px;
+        }
+    }
+
     .logo{
         margin: 22px 0;
         display: flex;
