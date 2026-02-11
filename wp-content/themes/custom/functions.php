@@ -252,7 +252,10 @@ add_action( 'after_setup_theme', function () {
 // pll_register_string( 'popup__success', 'success_descr');
 
 pll_register_string( 'footer', 'footer__text');
+
 pll_register_string( 'footer', 'footer_app_title');
+
+
 pll_register_string( 'footer', 'footer__copyright');
 
 
@@ -632,7 +635,9 @@ add_action( 'customize_register', function ( $customizer ) {
 
     // Настройки и контроли для "Адрес"
     add_customizer_setting_and_control($customizer, 'app-apple', 'Apple', 'contacts');
+	add_customizer_setting_and_control($customizer, 'app-apple-img', 'Apple-img', 'contacts');
     add_customizer_setting_and_control($customizer, 'app-google', 'Google', 'contacts');
+	add_customizer_setting_and_control($customizer, 'app-google-img', 'Google-img', 'contacts');
 
     
 
@@ -646,42 +651,11 @@ add_action( 'customize_register', function ( $customizer ) {
         )
     );
 
-	$customizer->add_setting(
-        'telegram',
-        array(
-            'default'           => 'telegram',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-
-	$customizer->add_setting(
-        'tiktoc',
-        array(
-            'default'           => 'tiktoc',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-	$customizer->add_setting(
-        'insta',
-        array(
-            'default'           => 'insta',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-	$customizer->add_setting(
-        'email',
-        array(
-            'default'           => 'email',
-            'sanitize_callback' => '__return_false',
-        )
-    );
-
     // Настройки и контроли для "Ссылка"
-	add_customizer_setting_and_control($customizer, 'telegram', 'Телеграмм', 'socials');
+	add_customizer_setting_and_control($customizer, 'ytube', 'Youtube', 'socials');
 	add_customizer_setting_and_control($customizer, 'insta', 'Инстограм', 'socials');
 	add_customizer_setting_and_control($customizer, 'tiktoc', 'tiktoc', 'socials');
 	add_customizer_setting_and_control($customizer, 'email', 'e-mail', 'socials');
-	//add_customizer_setting_and_control($customizer, 'youtube', 'ютуб', 'socials');
 
 	
 
