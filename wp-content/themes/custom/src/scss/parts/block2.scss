@@ -1,0 +1,15 @@
+.block2 { 
+    &__title  {
+        color: #000;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 22.5px */
+        letter-spacing: 0.075px;
+
+        @include media-breakpoint-up('xl') {
+            font-size: 24px;
+        }
+    }
+}

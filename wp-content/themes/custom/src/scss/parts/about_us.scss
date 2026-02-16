@@ -1,0 +1,117 @@
+.about {
+    &__block2-title{ 
+        margin-top: 30px;
+
+        @include media-breakpoint-up(sm) {
+            margin-top: 50px;
+        }
+        @include media-breakpoint-up(md) {
+            margin-top: 70px;
+        }
+        @include media-breakpoint-up(xl) {
+            margin-top: 100px;
+        }
+    }
+}
+
+.about-block{ 
+    margin-top: 30px;
+
+    @include media-breakpoint-up(sm) {
+        margin-top: 50px;
+    }
+    @include media-breakpoint-up(md) {
+        margin-top: 70px;
+    }
+    @include media-breakpoint-up(xl) {
+        margin-top: 100px;
+    }
+    @include media-breakpoint-up(xxl) {
+        margin-top: 50px;
+    }
+
+    &__title  {
+        color: #000;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 22.5px */
+        letter-spacing: 0.075px;
+        margin: 30px 0 ;
+
+        @include media-breakpoint-up('xl') {
+            font-size: 24px;
+            margin: 40px 0;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @include media-breakpoint-up(md) {
+            gap: 20px;
+        }
+
+        &--title { 
+            color: #000;
+
+            /* h3 -320 */
+            // font-family: Urbanist;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 27px */
+            letter-spacing: 0.09px;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 22px;
+            }
+            @include media-breakpoint-up(xl) {
+                font-size: 28px;
+            }
+            @include media-breakpoint-up(xxl) {
+                font-size: 38px;
+            }
+        }
+    }
+
+    &__app {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        @include media-breakpoint-up(sm) {
+            flex-direction: row;
+        }
+        &-title { 
+            color: #000;
+            text-align: center;
+
+            /* h2 - 320px */
+            // font-family: Urbanist;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 30px;
+            margin-bottom: 18px;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            @include media-breakpoint-up(md) {
+                text-align: left;
+            }
+            @include media-breakpoint-up(xl) {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        }
+
+
+    }
+}
