@@ -9,6 +9,14 @@ get_header(); ?>
   $aboutus_subtitle = get_field('aboutus_subtitle');
   $aboutus_block = get_field('aboutus_block');
   $aboutus_block2 = get_field('aboutus_block2');
+  $aboutus_aditions= get_field('aditions');
+
+  $aboutus_additiona = [
+    'top'     => get_field('addTop'),
+    'content' => get_field('kontent'),
+    'app'     => get_field('app'),
+    'img'     => get_field('img'),
+  ];
 ?>
 
 <main class="main about">
@@ -30,7 +38,6 @@ get_header(); ?>
         $items = $aboutus_block['items'];
         $decor= $aboutus_block['decor'];
         $bapptitle = $aboutus_block['app_title'];
-        $bapp = $aboutus_block['app'];
       ?>
       <div class="row">
         <div class="col-12 col-md-6">
@@ -104,6 +111,46 @@ get_header(); ?>
         </div>
       </div>
     </div>
+
+    <div class="about-aditional">
+      <div class="additional"></div>
+      <?php
+        $additional = get_template_directory() . '/parts/additional.php';
+        $additionals = $aboutus_additiona; 
+        if (file_exists($additional)) {
+          include $additional;
+        } else {
+          echo 'Файл additional.php не найден';
+        }
+      ?>
+    </div>
+
+    <div class="about-philosophy">
+      <?php
+        $phil_title = get_field('phil_title');
+        $phil_subtitle = get_field('phil_subtitle');
+        $tphil_text = get_field('tphil_text');
+      ?>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="about-philosophy__title">
+              <?php echo $phil_title; ?>
+            </p>
+          </div>
+          <div class="col-12 col-md-10 col-xxl-8 mx-auto justify-content-center">
+            <p class="about-philosophy__subtitle"> <?php echo $phil_subtitle; ?></p>
+          </div>
+          <div class="col-12 col-md-10 col-xxl-8 mx-auto justify-content-center">
+            <p class="about-philosophy__text">
+              <?php echo $tphil_text; ?>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </main>
 </div>
 

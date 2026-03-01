@@ -12,6 +12,59 @@
             margin-top: 100px;
         }
     }
+
+    &-philosophy {
+        &__title{
+            color: #000;
+            /* h2 - 320px */
+            //.font-family: Urbanist;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 32px;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: 38px;
+            }
+            @include media-breakpoint-up(xxl) {
+                font-size: 42px;
+            }
+        }
+
+        &__subtitle, &__text {
+            color: #000;
+            text-align: center;
+
+            /* p 320 */
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 18px */
+            letter-spacing: 0.06px;
+            margin: 10px 0;
+            margin-bottom: 20px;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 15px;
+                margin: 20px 0;
+                margin-bottom: 5px;
+            }
+            @include media-breakpoint-up(md) {
+                font-size: 18px;
+                margin: 20px 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        &__text { 
+            font-weight: 600;
+        }
+    }
 }
 
 .about-block{ 
@@ -71,7 +124,7 @@
                 font-size: 28px;
             }
             @include media-breakpoint-up(xxl) {
-                font-size: 38px;
+                font-size: 32px;
             }
         }
     }
@@ -85,6 +138,7 @@
 
         @include media-breakpoint-up(sm) {
             flex-direction: row;
+            justify-content: flex-start;
         }
         &-title { 
             color: #000;
