@@ -42,9 +42,13 @@
                             }
                         ?>    
                         </ul>
-                        <a href="<?php echo $safe_link['url']; ?>" class="btn safe__btn" target="_blank">
-                            <?php echo $safe_link['title']; ?>
-                        </a>
+                        <?php if(!empty($safe_link) && !empty($safe_link['url']) ) : ?>
+                            
+                            <a href="<?php echo $safe_link['url']; ?>" class="btn safe__btn" target="_blank">
+                                <?php echo $safe_link['title']; ?>
+                            </a>
+                            
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 offset-lg-1 offset-xl-0 order-1 order-lg-2 align-self-center">

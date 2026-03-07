@@ -139,7 +139,7 @@ header {
 
 
 
-            &.active, &:hover {
+            &.active, &:hover,.current_page_item  {
                 background-color: var(--Cta, #28B446);
                 color: #fff;
             }

@@ -7,17 +7,16 @@ $ctnt = get_field('content');
 get_header(); ?>
 
 <main class="main">
-
-  <?php
-    for ( $i = 0; $i < count($ctnt); $i++ ) {
-      //var_dump($ctnt[$i]);
-      $topLinkTemplate = get_template_directory() . '/parts/safety.php';
-      $content = $ctnt[$i];
-      if (file_exists($topLinkTemplate)) {
-        include $topLinkTemplate;
-      }
-    }
-  ?>
+  <?php if (!empty($ctnt) && is_array($ctnt)) : ?>
+    <?php foreach ($ctnt as $content) : ?>
+        <?php
+            $topLinkTemplate = get_template_directory() . '/parts/safety.php';
+            if (file_exists($topLinkTemplate)) {
+                include $topLinkTemplate;
+            }
+        ?>
+    <?php endforeach; ?>
+<?php endif; ?>
 
 
 </main>

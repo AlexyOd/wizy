@@ -22,11 +22,15 @@
                             <?php
                                 $icon = $item['icon'];
                             ?>
-                            <a href="<?php echo $item['link']['url']; ?>" class="intch__lnk" target="_blank">
-                                <?php
-                                    echo $icon;
-                                ?>
-                            </a>
+                            <?php if(!empty($item['link'] && $item['link']['url'])) : ?>
+                                
+                                <a href="<?php echo $item['link']['url']; ?>" class="intch__lnk" target="_blank">
+                                    <?php
+                                        echo $icon;
+                                    ?>
+                                </a>
+                            
+                            <?php endif; ?>
                         <?php endforeach; ?>
                     </div>
                 </div>
