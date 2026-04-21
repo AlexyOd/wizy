@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const { src, dest, watch, series, parallel } = require('gulp');
 const yargs = require('yargs');
 const sass = require('gulp-sass')(require('sass')); // Set the Sass compiler explicitly
@@ -13,6 +15,32 @@ const browserSync = require('browser-sync');
 
 const PRODUCTION = yargs.argv.prod;
 
+const VENDOR_SCSS_GLOB = 'src/vendor/**/*.scss';
+const MAIN_SCSS = path.join(__dirname, 'src', 'scss', 'main.scss');
+
+/** Есть ли хотя бы один .scss под src/vendor (папка может отсутствовать). */
+function hasVendorScssFiles() {
+  const root = path.join(__dirname, 'src', 'vendor');
+  if (!fs.existsSync(root)) {
+    return false;
+  }
+  function walk(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory()) {
+        if (walk(full)) {
+          return true;
+        }
+      } else if (e.name.endsWith('.scss')) {
+        return true;
+      }
+    }
+    return false;
+  }
+  return walk(root);
+}
+
 // Создание экземпляра сервера BrowserSync
 const server = browserSync.create();
 
@@ -22,8 +50,13 @@ const reload = function(done) {
   done();
 };
 
-// Определение задачи стилей
-exports.styles = function() {
+// Определение задачи стилей (если нет main.scss — без ошибки glob)
+exports.styles = function(done) {
+  if (!fs.existsSync(MAIN_SCSS)) {
+    console.warn('[gulp] styles: пропуск — нет файла src/scss/main.scss');
+    done();
+    return;
+  }
   return src(['src/scss/main.scss'])
     .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
     .pipe(sass().on('error', sass.logError))
@@ -34,9 +67,13 @@ exports.styles = function() {
     .pipe(server.stream());
 };
 
-// Определение задачи для стилей vendor
-exports.vendorStyles = function() {
-  return src(['src/vendor/**/*.scss'])  // Adjust the source path as needed
+// Определение задачи для стилей vendor (только если есть matching .scss)
+exports.vendorStyles = function(done) {
+  if (!hasVendorScssFiles()) {
+    done();
+    return;
+  }
+  return src([VENDOR_SCSS_GLOB])
     .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
     .pipe(sass().on('error', sass.logError))
     .pipe(gulpif(PRODUCTION, postcss([autoprefixer])))
@@ -55,8 +92,12 @@ exports.images = function() {
 
 // Определение задачи отслеживания изменений
 exports.watchForChanges = function() {
-  watch('src/scss/**/*.scss', exports.styles);
-  watch('src/vendor/**/*.scss', exports.vendorStyles);  // Watch for vendor styles changes
+  if (fs.existsSync(path.join(__dirname, 'src', 'scss'))) {
+    watch('src/scss/**/*.scss', exports.styles);
+  }
+  if (fs.existsSync(path.join(__dirname, 'src', 'vendor'))) {
+    watch(VENDOR_SCSS_GLOB, exports.vendorStyles);
+  }
   watch('src/images/**/*.{jpg,jpeg,png,svg,gif}', series(exports.images, reload));
   watch('src/js/**/*.js', series(exports.scripts, reload));
   watch("**/*.php", reload);

@@ -20,16 +20,15 @@
                     <div class="intch__items">
                         <?php foreach ($intch_items as $index => $item) : ?>
                             <?php
-                                $icon = $item['icon'];
+                                $icon = isset($item['icon']) ? $item['icon'] : '';
+                                $link = isset($item['link']) && is_array($item['link']) ? $item['link'] : [];
+                                $url = isset($link['url']) && is_string($link['url']) ? trim($link['url']) : '';
+                                $is_valid_url = $url !== '' && strpos($url, '<') === false && (preg_match('#^https?://#i', $url) || preg_match('#^/#', $url));
                             ?>
-                            <?php if(!empty($item['link'] && $item['link']['url'])) : ?>
-                                
-                                <a href="<?php echo $item['link']['url']; ?>" class="intch__lnk" target="_blank">
-                                    <?php
-                                        echo $icon;
-                                    ?>
+                            <?php if ($is_valid_url) : ?>
+                                <a href="<?php echo esc_url($url); ?>" class="intch__lnk" target="_blank" rel="noopener noreferrer">
+                                    <?php echo $icon; ?>
                                 </a>
-                            
                             <?php endif; ?>
                         <?php endforeach; ?>
                     </div>

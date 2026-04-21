@@ -240,6 +240,41 @@ add_action( 'after_setup_theme', function () {
 	] );
 } );
 
+/**
+ * Стили ссылок главного меню (шапка) — как в статической вёрстке Tailwind.
+ */
+add_filter( 'nav_menu_link_attributes', function ( $atts, $item, $args, $depth ) {
+	if ( empty( $args->theme_location ) || $args->theme_location !== 'main' ) {
+		return $atts;
+	}
+	$classes   = (array) $item->classes;
+	$is_active = in_array( 'current-menu-item', $classes, true )
+		|| in_array( 'current-menu-ancestor', $classes, true );
+	$atts['class'] = $is_active
+		? 'px-4 py-2 rounded-lg transition-all relative text-[#FFB100]'
+		: 'px-4 py-2 rounded-lg transition-all relative text-white/70 hover:text-white';
+	$atts['data-discover'] = 'true';
+
+	return $atts;
+}, 10, 4 );
+
+/**
+ * Точка под активным пунктом главного меню.
+ */
+add_filter( 'nav_menu_item_title', function ( $title, $item, $args, $depth ) {
+	if ( empty( $args->theme_location ) || $args->theme_location !== 'main' ) {
+		return $title;
+	}
+	$classes   = (array) $item->classes;
+	$is_active = in_array( 'current-menu-item', $classes, true )
+		|| in_array( 'current-menu-ancestor', $classes, true );
+	if ( $is_active ) {
+		$title .= '<span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-[#FFB100] rounded-full"> </span>';
+	}
+
+	return $title;
+}, 10, 4 );
+
 // pll_register_string( 'header', 'call-to-us' );
 
 // pll_register_string( 'form', 'error_req');
@@ -636,8 +671,10 @@ add_action( 'customize_register', function ( $customizer ) {
     // Настройки и контроли для "Адрес"
     add_customizer_setting_and_control($customizer, 'app-apple', 'Apple', 'contacts');
 	add_customizer_setting_and_control($customizer, 'app-apple-img', 'Apple-img', 'contacts');
+	add_customizer_setting_and_control($customizer, 'app-apple-en-img', 'Apple-en-img', 'contacts');
     add_customizer_setting_and_control($customizer, 'app-google', 'Google', 'contacts');
 	add_customizer_setting_and_control($customizer, 'app-google-img', 'Google-img', 'contacts');
+	add_customizer_setting_and_control($customizer, 'app-google-en-img', 'Google-en-img', 'contacts');
 
     
 

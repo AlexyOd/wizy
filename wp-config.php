@@ -20,8 +20,8 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'WPCACHEHOME', 'C:\OSPanel\domains\loc.wizy\wp-content\plugins\wp-super-cache/' );
-define( 'DB_NAME', 'wizy' );
+//define( 'WPCACHEHOME', 'C:\OSPanel\domains\loc.sowa\wp-content\plugins\wp-super-cache/' );
+define( 'DB_NAME', 'sowa' );
 
 /** Имя пользователя базы данных */
 define( 'DB_USER', 'root' );

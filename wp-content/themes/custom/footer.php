@@ -43,7 +43,9 @@
 
 							$appApple['link']['url'] =  get_theme_mod('app-apple');
 							$appApple['img'] = get_theme_mod('app-apple-img');
-
+							if(pll_current_language() == 'en') {
+								$appApple['img'] = get_theme_mod('app-apple-en-img');
+							};
 							/* Первый линк */
 							$topLinkData = $appApple;
 							if (file_exists($topLinkTemplate)) {
@@ -53,6 +55,9 @@
 							/* Второй линк */
 							$appGoogle['link']['url'] =  get_theme_mod('app-google');
 							$appGoogle['img'] = get_theme_mod('app-google-img');
+							if(pll_current_language() == 'en') {
+								$appGoogle['img'] = get_theme_mod('app-google-en-img');
+							};
 							$topLinkData = $appGoogle;
 							if (file_exists($topLinkTemplate)) {
 								include $topLinkTemplate;
